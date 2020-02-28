@@ -2,13 +2,83 @@
 <html>
 <head>
 	<title>Page 2</title>
+
+		<link rel="stylesheet" type="text/css" href="css/css2.css">
 </head>
-<body>
-<p>successful</p>
+
+	<body id="javascropt">
+
+    <form>
+       <p >How much money did you spend this time?  
+       <p>
+          $ <input id="billamt" type="text" placeholder="Bill Amount" >
+
+          <p>How would you rank the quality of service? <br>
+            
+
+              <input list="serviceQualChoices" id="serviceQual" placeholder="decimal"/>
+              
+              <datalist id="serviceQualChoices">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.5">50&#37; &#45; Abovest of Average</option>
+                <option value="0.3">30&#37; &#45; Abover average</option>
+                <option value="0.2">20&#37; &#45; Above Average</option>
+                <option value="0.15">15&#37; &#45; Average</option>
+                <option value="0.1">10&#37; &#45; Below Average</option>
+                <option value="0.05">5&#37; &#45; Belower of Average</option>
+                <option value="0.00">0&#37; &#45; Belowest of Average</option>
+              </datalist>
+
+        <p>How many people are paying the bill?</p>
+        <input id="peopleamt" type="text" placeholder="People paying"> 
+        <button type="button" id="calculate">Calculate!</button>
+
+  </div>
+  <!--calculator end ｂｒｏｏｍ-->
+
+  <div id="totalTip">
+    <p>To tip:<br>$<span id="tip"></span>
+    <small id="each"> each</small></p>
+  </div>
+  <!--totalTip end-->
+
+  <p>successful</p>
 <a href="index.html">< Homepage</a>
 <a href="pg1.html">< Page 1</a>
 <a href="pg2.html">< Page 2</a>
 <a href="pg3.html">< Page 3</a>
 <a href="pg4.html">< Page 4</a>
+
+    </form>
+
+    
+<!-- 
+<input list="serviceQualChoices"/>
+
+<datalist id="serviceQualChoices">
+  <option disabled selected value="0">- - Choose an Option - -</option>
+  <option value="0.5">50&#37; &#45; Abovest of Average</option>
+  <option value="0.3">30&#37; &#45; Abover average</option>
+  <option value="0.2">20&#37; &#45; Above Average</option>
+  <option value="0.15">15&#37; &#45; Average</option>
+  <option value="0.1">10&#37; &#45; Below Average</option>
+  <option value="0.05">5&#37; &#45; Belower of Average</option>
+  <option value="0.00">0&#37; &#45; Belowest of Average</option>
+</datalist> -->
+
+
+</div>
+<!--container end-->
+
+<script type="text/javascript" src="app.js"></script>
+
+<!--
+ <div id="id" onload="Function()"> 
+		<script src="app.js">  </script> </div>
+
+<div id="id2" ><button id = "id2"onclick="Calculate()">Calculate!</button></div>
+
+<p1 id = "javascropt">text</p1> --> 
+
 </body>
 </html>

@@ -27,9 +27,7 @@ function calculateTip() {
   if (numOfPeople === "" || numOfPeople <= 1) {
     numOfPeople = 1;
     document.getElementById("each").style.display = "none";
-  } else {
-    document.getElementById("each").style.display = "block";
-  }
+  } 
 
   //Calculate tip
   var total = (billAmt * serviceQual) / numOfPeople;

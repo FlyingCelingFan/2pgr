@@ -1,4 +1,33 @@
-body{
+/* navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0vw;
+    padding: 0vw;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Impact;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+
+/* css code  */
+
+
+body {
     background-color:rgb(170, 228, 152);
 }
 
@@ -20,3 +49,4 @@ body{
     font-size: 6vw;
     border-radius: 1rem;
 }
+

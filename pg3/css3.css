@@ -1,0 +1,37 @@
+/* navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0vw;
+    padding: 0vw;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+
+
+/* main css*/
+
+body {
+    background-color: #d298e4;
+}
+
+#main {
+    text-align: center;
+    font-family: impact;
+    font-size: 3vw;
+}
